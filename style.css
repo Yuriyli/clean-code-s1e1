@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.header-infographic{
+.header__infographic{
   width: 100%;
 }
-.header .info-link {
+.header__info-link {
   font-family: fantasy, cursive;
 }
 
@@ -39,7 +39,7 @@
   margin: 0;
   padding: 0px;
 }
-.editor-component,
+.editor__component,
 .title {
   list-style: none;
 }
@@ -70,7 +70,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.input-text {
+.input__text{
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -91,12 +91,12 @@
   display: block;
   margin: 0 0 20px;
 }
-#new-task {
+.new-task__input {
   width: 318px;
 }
 
 /* Task list */
-.editor-component {
+.editor__component {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -105,47 +105,47 @@
   justify-content: space-between;
   align-items: center;
 }
-.editor-component > * {
+.editor__component > * {
   vertical-align: middle;
 }
 
-.editor-checkbox {
+.editor__checkbox {
   margin: 0 10px;
 }
-.editor-component > .task {
+.editor__component > .task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.editor-component > .input-text {
+.editor__component > .input__text{
   width: 226px;
 }
-.btn-delete-img {
+.editor__btn-delete__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.btn-delete-img:hover {
+.editor__btn-delete__img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-#completed-tasks .editor-label {
+.editor__completed-tasks .editor__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.editor-component .input-text {
+.editor__component .input__text{
   display: none;
 }
 
-.edit-mode .input-text {
+.edit-mode .input__text{
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .editor-label {
+.edit-mode .editor__label {
   display: none;
 }
